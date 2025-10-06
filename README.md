@@ -1,4 +1,4 @@
-IBENET--SOCIAL-MEDIA-HUB
+
 🌐 Vibenet - Social Media Hub
 
 -------Where every Vibe finds its Tribe
