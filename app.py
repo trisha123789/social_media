@@ -182,6 +182,7 @@ else:
             st.session_state.viber_id = None
             st.session_state.viber_username = None
             st.session_state.viber_badges = []
+            st.session_state["notif"] = []
             st.rerun()
         st.markdown("---")
         # Added SoulLinks option
