@@ -5,7 +5,7 @@ class EchoDAO:
         self._db = get_supabase()
 
     def react(self, thought_id: int, viber_id: int, emotion: str):
-        return self._db.table("thought_echoes").insert({
+        return self._db.table("echoes").insert({
             "thought_id": thought_id,
             "viber_id": viber_id,
             "emotion": emotion
