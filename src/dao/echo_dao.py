@@ -8,7 +8,7 @@ class EchoDAO:
         return self._db.table("echoes").insert({
             "thought_id": thought_id,
             "viber_id": viber_id,
-            "emotion": emotion
+            "emotion_tag": emotion
         }).execute().data
 
     def react_to_post(self, post_id: int, viber_id: int, emotion: str):
